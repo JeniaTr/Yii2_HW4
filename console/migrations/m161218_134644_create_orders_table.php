@@ -14,7 +14,6 @@ class m161218_134644_create_orders_table extends Migration
     {
         $this->createTable('orders', [
             'id' => $this->primaryKey(),
-            'buyer_id' => $this->integer(),
             'date' => $this->date(),
             'sum' => $this->float(),
         ]);

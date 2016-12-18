@@ -1,5 +1,6 @@
 <?php
 
+use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 
@@ -11,6 +12,9 @@ NavBar::begin([
     ],
 ]);
 $menuItems = [
+    ['label' => 'Home', 'url' => ['/site/index']],
+    ['label' => 'Home', 'url' => ['/site/index']],
+    ['label' => 'Home', 'url' => ['/site/index']],
     ['label' => 'Home', 'url' => ['/site/index']],
     ['label' => 'About', 'url' => ['/site/about']],
     ['label' => 'Contact', 'url' => ['/site/contact']],
