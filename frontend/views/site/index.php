@@ -40,6 +40,9 @@ $this->title = 'Мой сайт';
                  <div class="blockcube">
 
                      <h2 class="text-center">Чтото2</h2>
+
+
+
                      <p class="text-center"><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
                  </div>
             </div>

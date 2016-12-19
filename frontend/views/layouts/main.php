@@ -7,9 +7,11 @@ use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
 use frontend\assets\AppAsset;
 use common\widgets\Alert;
+use common\widgets\HelloWidget;
 
 AppAsset::register($this);
 ?>
+
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
@@ -29,6 +31,8 @@ AppAsset::register($this);
     <?= $this->render('/layouts/navbar') ?>
 
     <div class="container">
+        <div><h1><?= HelloWidget::widget(['message' => ' Yii2.0']) ?></h1> </div>
+
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
