@@ -1,0 +1,4 @@
+php yii migrate/create create_tovar_table --fields=name:string:notNull
+php yii migrate/create create_buyer_table --fields=fio:string,adress:text,telefon:integer
+php yii migrate/create create_orders_table --fields=buyer_id:integer,date:date,sum:float
+php yii migrate/create create_tovar_orders_table --fields="order_id:integer:notNull:foreignKey(orders),tovar_id:integer:notNull:foreignKey(tovar)"
