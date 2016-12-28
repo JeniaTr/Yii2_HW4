@@ -37,4 +37,5 @@ echo Nav::widget([
     'items' => $menuItems,
 ]);
 NavBar::end();
+
 ?>

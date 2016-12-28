@@ -1,5 +1,5 @@
 <?php
-use \common\widgets\HelloWidget;
+use \common\widgets\views\HelloWidget;
 use yii\helpers\Html;
 
 $this->title = 'About';

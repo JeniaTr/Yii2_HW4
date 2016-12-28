@@ -1,11 +1,11 @@
 <?php
 
+
 /* @var $this yii\web\View */
 
 $this->title = 'Мой сайт';
 ?>
 <div class="site-index">
-
     <div class="jumbotron">
         <h1>Congratulations!</h1>
 
@@ -22,6 +22,7 @@ $this->title = 'Мой сайт';
                 <div class="blockcube">
                     <div class="text-center">
                         <h2>Чтото1</h2>
+                        <br>
                         <br>
                         <br>
                         <br>
